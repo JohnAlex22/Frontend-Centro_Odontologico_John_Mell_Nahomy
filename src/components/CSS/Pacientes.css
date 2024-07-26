@@ -1,0 +1,23 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaciado entre las tarjetas */
+    padding: 20px; /* Espaciado alrededor del contenedor */
+}
+
+.p-card-custom {
+    cursor: pointer;
+    width: 200px; /* Ajuste del tamaño */
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: aquamarine;
+    margin: 10px; /* Margen alrededor de cada tarjeta */
+}
+
+.p-card-custom:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}

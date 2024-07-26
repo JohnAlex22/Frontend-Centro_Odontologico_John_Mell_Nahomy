@@ -1,0 +1,51 @@
+/* Header.css */
+
+.header-container {
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-container input {
+  border-radius: 20px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.search-container input:focus {
+  border-color: #007ad9;
+  box-shadow: 0 0 5px rgba(0, 122, 217, 0.5);
+}
+
+.search-container .avatar {
+  width: 150px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.menubar-custom .p-menubar-root-list > .p-menubaritem {
+  margin-right: 40px; /* Ajusta el espaciado entre elementos */
+}
+
+.menubar-custom .p-menubar-root-list > .p-menubaritem > .p-menuitem-link {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Ajusta el espaciado entre icono y texto */
+}
+
+.card {
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1rem;
+}

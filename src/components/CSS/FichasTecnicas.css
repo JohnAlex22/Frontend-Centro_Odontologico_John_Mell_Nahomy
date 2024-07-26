@@ -1,0 +1,24 @@
+/* FichasTecnicas.css */
+
+.card {
+    padding: 2rem;
+    margin: 2rem auto;
+    width: 80%;
+}
+
+.p-field {
+    margin-bottom: 1rem;
+}
+
+.p-button {
+    margin-right: 0.5rem;
+}
+
+.p-button-secondary {
+    margin-left: 0.5rem;
+}
+
+.p-dialog .p-dialog-footer {
+    display: flex;
+    justify-content: flex-end;
+}
