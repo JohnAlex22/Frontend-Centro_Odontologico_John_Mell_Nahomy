@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import './CSS/Auth.css';
-import fondoImage2 from '../assets/Fondo2.png';
+import fondoImage2 from '../assets/Fondo4.png';
 import logo from '../assets/Logo.png';
 
 export default function Register() {

@@ -7,7 +7,7 @@ const Home = () => {
 
   return (
     <main>
-      <h1>Bienvenido(a) {usuario ? usuario.nombre : 'Usuario'} al sistema Odontología TC</h1>
+      <h1>Bienvenido(a) {usuario ? usuario.nombre : 'Usuario'} a Dental Health</h1>
       <div className="grid">
         <div className="card"><Link to="/pacientes">Pacientes</Link></div>
         <div className="card"><Link to="/fichas">Fichas tecnicas</Link></div>

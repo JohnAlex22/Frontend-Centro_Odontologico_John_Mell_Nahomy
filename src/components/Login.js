@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import fondoImage3 from '../assets/Fondo3.png'; // Ajusta la ruta si es necesario
+import fondoImage3 from '../assets/Fondo4.png'; // Ajusta la ruta si es necesario
 import logo from '../assets/Logo.png';
 import axios from 'axios';
 import './CSS/Auth.css';
@@ -29,8 +29,12 @@ export default function Login() {
   return (
     <div className="login-main">
       <div className="login-left">
-        <img src={fondoImage3} alt="Ilustración de Inicio de Sesión" />
-      </div>
+    <img 
+      src={fondoImage3} 
+      alt="Ilustración de Inicio de Sesión" 
+      style={{ width: '400px', height: '400px' }} 
+    />
+  </div>
       <div className="login-right">
         <div className="login-right-container">
           <div className="login-logo">
